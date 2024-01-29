@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script>
+        // control flow examples in javascript
+        // displaying Alphabet a to z with loop
+        let i = 1;
+        while(i <= 20){
+            console.log(i);
+            i++
+        }
+        // for loop printing even number with if statement
+        let num;
+        for(num =1; num <= 20; num++ ){
+            if(num % 2 == 0){
+                console.log(num);
+            }
+        }
+        let j = 1;
+        do{
+            console.log(j);
+            j++;
+        }while(j < 11)
+        let list =["emma", "dooyum", "Esther", "Ela"]
+        const obj = {
+            name: "lion",
+            age: 32,
+            choice: "python"
+
+        }
+        // for of loop to iterate the array list
+        for(let value of list){
+            console.log(value)
+        }
+        // for in loop to enumerate the object obj
+        for(const ob in obj){
+            console.log(`${ob} is ${obj[ob]}`)
+        }
+
+        // function
+        function add(a,b){
+            console.log(a+b)
+        }
+        add(3,5)
+    </script>
+    
+</head>
+<body>
+    <header>
+        <h1>3MTT ASSIGNMENT</h1>
+    </header>
+    
+    <h2 style="margin-left: 45%;">Transition</h2 style="margin-left: 45%;">
+    <section class="box">
+        <div id="1"><img src="alumni.jpg" alt="alumni" width="100px" height="100px"></div>
+        <div id="2"><img src="banker.jpg" alt="banker" width="100px" height="100px"></div>
+        <div id="3"><img src="staff.jpg" alt="staff" width="100px" height="100px"></div>
+        <div id="4"><img src="students.jpg" alt="students" width="100px" height="100px"></div>
+    </section>
+    <main class="gridlayout">
+        <div style="background-color: red;"></div>
+        <div style="background-color: blue;"></div>
+        <div style="background-color: green;"></div>
+        <div style="background-color: yellow;"></div>
+        <div style="background-color: grey;"></div>
+        <div style="background-color: lightsalmon;"></div>
+    </main>
+    <footer>
+        <section class="sm">
+            <a href="www.facebook.com/skyfazee" target=""><div id="fb"></div></a>
+            <a href="www.instagram.com/skyfazee" target="_blank"><div id="ins"></div></a>
+            <a href="#"><div id="x"></div></a>
+        </section>
+        <div>&copy; Emmanuel jonathan</div>
+        
+    </footer>
+</body>
+</html>
